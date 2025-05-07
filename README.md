@@ -1,17 +1,12 @@
-# Nest_Ecommerce
-
-https://github.com/Rakibulislam-emon/nest_client 
-
-https://github.com/Rakibulislam-emon/nest_server
-
-https://nest-client-henna.vercel.app/
-
-
 # Nest Grocery Shop
 
 A full-stack e-commerce platform for organic groceries with a React frontend and Express backend.
 
 ![Nest Logo](./nest_client/src/assets/logo.png)
+
+## Live Demo
+
+Visit the live site: [Nest Grocery Shop](https://nest-client-henna.vercel.app/)
 
 ## Project Overview
 
@@ -19,6 +14,11 @@ Nest Grocery Shop is a modern e-commerce application that provides a seamless sh
 
 1. **Nest Client** - Frontend built with React, Vite, and Tailwind CSS
 2. **Nest Server** - Backend API built with Express.js and MongoDB
+
+## GitHub Repositories
+
+- **Frontend**: [nest_client](https://github.com/Rakibulislam-emon/nest_client)
+- **Backend**: [nest_server](https://github.com/Rakibulislam-emon/nest_server)
 
 ## Features
 
@@ -67,10 +67,13 @@ Nest Grocery Shop is a modern e-commerce application that provides a seamless sh
 
 ### Installation and Setup
 
-#### 1. Clone the repository
+#### 1. Clone the repositories
 ```bash
-git clone https://github.com/yourusername/nest-grocery-shop.git
-cd nest-grocery-shop
+# Clone the frontend repository
+git clone https://github.com/Rakibulislam-emon/nest_client.git
+
+# Clone the backend repository
+git clone https://github.com/Rakibulislam-emon/nest_server.git
 ```
 
 #### 2. Set up the Backend (Nest Server)
@@ -108,38 +111,35 @@ npm run dev
 ## Project Structure
 
 ```
-nest-grocery-shop/
-├── nest_client/           # Frontend application
-│   ├── public/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   ├── hooks/
-│   │   ├── pages/
-│   │   ├── providers/
-│   │   ├── redux/
-│   │   ├── routes/
-│   │   ├── main.jsx
-│   │   └── index.css
-│   ├── .env
-│   ├── index.html
-│   ├── package.json
-│   ├── tailwind.config.js
-│   └── vite.config.js
-│
-├── nest_server/           # Backend application
-│   ├── config/
-│   ├── helper/
+nest_client/           # Frontend application
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── hooks/
+│   ├── pages/
+│   ├── providers/
+│   ├── redux/
 │   ├── routes/
-│   │   ├── Authentication/
-│   │   ├── payment/
-│   │   └── ...
-│   ├── .env
-│   ├── index.js
-│   ├── package.json
-│   └── vercel.json
-│
-└── README.md
+│   ├── main.jsx
+│   └── index.css
+├── .env
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+
+nest_server/           # Backend application
+├── config/
+├── helper/
+├── routes/
+│   ├── Authentication/
+│   ├── payment/
+│   └── ...
+├── .env
+├── index.js
+├── package.json
+└── vercel.json
 ```
 
 ## API Endpoints
@@ -159,10 +159,9 @@ nest-grocery-shop/
 
 ## Deployment
 
-Both the client and server are configured for deployment on Vercel:
-
-- **Frontend**: The `vercel.json` file in the client directory includes the necessary rewrites for client-side routing.
-- **Backend**: The `vercel.json` file in the server directory includes the necessary configuration for serverless deployment.
+Both the client and server are deployed on Vercel:
+- **Frontend**: [https://nest-client-henna.vercel.app/](https://nest-client-henna.vercel.app/)
+- **Backend**: Deployed as a serverless API
 
 ## CORS Configuration
 
